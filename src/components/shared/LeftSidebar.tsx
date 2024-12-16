@@ -29,9 +29,9 @@ const LeftSidebar = () => {
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/images/zenith-logo.png"
             alt="logo"
-            width={170}
+            width={200}
             height={36}
           />
         </Link>
@@ -62,7 +62,7 @@ const LeftSidebar = () => {
               <li
                 key={link.label}
                 className={`leftsidebar-link group ${
-                  isActive && "bg-primary-500"
+                  isActive && "bg-blue-700"
                 }`}>
                 <NavLink
                   to={link.route}

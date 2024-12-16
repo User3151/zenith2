@@ -75,13 +75,14 @@ const SignupForm = () => {
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/images/logo.svg" alt="logo" />
+      <img src="/assets/images/zenith-logo.png" alt="logo" height={250}
+        width={250}/>
 
         <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
           Create a new account
         </h2>
         <p className="text-light-3 small-medium md:base-regular mt-2">
-          To use snapgram, Please enter your details
+          To use zenith, Please enter your details
         </p>
 
         <form
@@ -157,7 +158,7 @@ const SignupForm = () => {
             Already have an account?
             <Link
               to="/sign-in"
-              className="text-primary-500 text-small-semibold ml-1">
+              className="text-sky-700 text-small-semibold ml-1">
               Log in
             </Link>
           </p>
