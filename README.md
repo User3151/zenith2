@@ -421,7 +421,7 @@ export const bottombarLinks = [
   }
 
   .leftsidebar-link {
-    @apply rounded-lg base-medium hover:bg-primary-500 transition;
+    @apply rounded-lg base-medium hover:bg-blue-700	 transition;
   }
 
   /* Post Card */
@@ -465,7 +465,7 @@ export const bottombarLinks = [
 
   /* Button */
   .shad-button_primary {
-    @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 !important;
+    @apply bg-blue-700 hover:bg-blue-700 text-light-1 flex gap-2 !important;
   }
 
   .shad-button_dark_4 {
@@ -535,7 +535,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'primary-500': '#877EFF',
+        'primary-500': '#0369a1',
         'primary-600': '#5D5FEF',
         'secondary-500': '#FFB620',
         'off-white': '#D0DFFF',
@@ -762,3 +762,5 @@ And if you're hungry for more than just a course and want to understand how we l
 </a>
 
 #
+#   z e n i t h 2  
+ 
